@@ -7,9 +7,11 @@ engine to look up information on the web.
 
 A prerequisite to running this example is to provide your OpenAI and Tavily API keys.
 
+add [.env](.env)
 ```
-export QUARKUS_LANGCHAIN4J_OPENAI_API_KEY=<your-openai-api-key>
-export QUARKUS_LANGCHAIN4J_TAVILY_API_KEY=<your-tavily-api-key>
+QUARKUS_LANGCHAIN4J_AZURE_OPENAI_RESOURCE_NAME=<your-azure-openapi-api-host>
+QUARKUS_LANGCHAIN4J_AZURE_OPENAI_API_KEY=<your-azure-openapi-api-key>
+QUARKUS_LANGCHAIN4J_TAVILY_API_KEY=<your-tavily-api-key>
 ```
 
 Then, simply run the project in Dev mode:

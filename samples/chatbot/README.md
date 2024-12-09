@@ -6,8 +6,10 @@ This example demonstrates how to create a simple chatbot with RAG using `quarkus
 
 A prerequisite to running this example is to provide your OpenAI API key.
 
+add [.env](.env)
 ```
-export QUARKUS_LANGCHAIN4J_OPENAI_API_KEY=<your-openai-api-key>
+QUARKUS_LANGCHAIN4J_AZURE_OPENAI_RESOURCE_NAME=<your-azure-openapi-api-host>
+QUARKUS_LANGCHAIN4J_AZURE_OPENAI_API_KEY=<your-azure-openapi-api-key>
 ```
 
 Then, simply run the project in Dev mode:

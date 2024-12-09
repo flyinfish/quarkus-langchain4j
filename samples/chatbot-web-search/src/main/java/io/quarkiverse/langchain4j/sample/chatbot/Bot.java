@@ -16,6 +16,7 @@ public interface Bot {
             so if the user asks something
             that requires the knowledge of today's date, use the getTodaysDate function before
             calling the search engine.
+            When answering with measurements please use the units commonly used in Sswitzerland.
             """)
     String chat(@UserMessage String question);
 

@@ -168,7 +168,7 @@
         </property>
       </activation>
       <modules>
-        <module>docs</module>
+<!--        <module>docs</module>-->
       </modules>
     </profile>
 

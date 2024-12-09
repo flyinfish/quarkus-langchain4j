@@ -29,5 +29,5 @@ public interface FraudDetectionAi {
             Your response must be just the raw JSON document, without ```json, ``` or anything else. Do not use null JSON properties.
              """)
     @Timeout(value = 2, unit = ChronoUnit.MINUTES)
-    String detectAmountFraudForCustomer();
+    String  detectAmountFraudForCustomer();
 }
